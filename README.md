@@ -21,8 +21,8 @@ This is a small, self-contained FastAPI project that demonstrates secure practic
    ```
 3. Set environment variables (example):
    ```bash
-   export SECRET_KEY='change_this_to_a_strong_secret'
-   export ACCESS_TOKEN_EXPIRE_MINUTES=15
+    SECRET_KEY='change_this_to_a_strong_secret'
+    ACCESS_TOKEN_EXPIRE_MINUTES=15
    ```
    On Windows (PowerShell):
    ```powershell
