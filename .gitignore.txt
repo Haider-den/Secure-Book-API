@@ -1,0 +1,48 @@
+# -------------------------------
+# Python and Virtual Environment
+# -------------------------------
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -------------------------------
+# Environment and Config Files
+# -------------------------------
+.env
+.env.*
+*.secret
+*.key
+
+# -------------------------------
+# Database and Logs
+# -------------------------------
+*.db
+*.sqlite3
+*.log
+
+# -------------------------------
+# System / IDE Files
+# -------------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.bak
+
+# -------------------------------
+# Build and Packaging
+# -------------------------------
+build/
+dist/
+*.egg-info/
+
+# -------------------------------
+# Docker and Containers
+# -------------------------------
+*.pid
+*.seed
+*.cover
+*.dockerignore
+*.container
